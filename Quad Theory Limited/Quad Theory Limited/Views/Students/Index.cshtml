@@ -1,0 +1,31 @@
+﻿@model List<Quad_Theory_Limited.Models.Student>
+
+<h2>Student List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>DOB</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Classes.Name</td>
+                <td>@student.DOB.ToShortDateString()</td>
+                <td>@(student.Gender == 0 ? "Male" : (student.Gender == 1 ? "Female" : "Other"))</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@student.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@student.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@student.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model Quad_Theory_Limited.Models.Student
+
+<h2>Student Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+
+    <dt class="col-sm-2">
+        Class 
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Classes.Name)
+    </dd>
+
+    <dt class="col-sm-2">
+        Date of Birth
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DOB.ToShortDateString()
+    </dd>
+
+
+    <dt class="col-sm-2">
+        Gender
+    </dt>
+    <dd class="col-sm-10">
+        @{
+            string genderLabel = Model.Gender == 0 ? "Male" : (Model.Gender == 1 ? "Female" : "Other");
+        }
+        @genderLabel
+    </dd>
+
+</dl>

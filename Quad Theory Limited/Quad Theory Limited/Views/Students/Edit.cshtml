@@ -1,0 +1,30 @@
+﻿@model Quad_Theory_Limited.Models.Student
+
+<h2>Edit Student</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClassId"></label>
+        <select asp-for="ClassId" asp-items="@(new SelectList(ViewBag.Classes, "Id", "Name"))" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DOB"></label>
+        <input asp-for="DOB" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Gender"></label>
+        <input asp-for="Gender" type="radio" value="0" /> Male
+        <input asp-for="Gender" type="radio" value="1" /> Female
+        <input asp-for="Gender" type="radio" value="2" /> Other
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
