@@ -1,0 +1,30 @@
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\appsettings.Development.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\appsettings.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.staticwebassets.runtime.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.exe
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.deps.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.runtimeconfig.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.dll
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\bin\Debug\net6.0\Quad Theory Limited.pdb
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.AssemblyInfoInputs.cache
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.AssemblyInfo.cs
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.csproj.CoreCompileInputs.cache
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.RazorAssemblyInfo.cache
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.RazorAssemblyInfo.cs
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets\msbuild.Quad Theory Limited.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets\msbuild.build.Quad Theory Limited.props
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Quad Theory Limited.props
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Quad Theory Limited.props
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets.pack.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets.build.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\staticwebassets.development.json
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\scopedcss\bundle\Quad Theory Limited.styles.css
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\scopedcss\projectbundle\Quad Theory Limited.bundle.scp.css
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.dll
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\refint\Quad Theory Limited.dll
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.pdb
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\Quad Theory Limited.genruntimeconfig.cache
+D:\GitHub\ASP.NET-INTERNSHIP\Quad Theory Limited\Quad Theory Limited\obj\Debug\net6.0\ref\Quad Theory Limited.dll
