@@ -16,11 +16,8 @@ namespace Quad_Theory_Limited.Controllers
         //Show Students List
         public IActionResult Index()
         {
-            
-                List<Student> students = _context.Students.Include(s => s.Classes).ToList();
-                return View(students);
-            
-            
+             List<Student> students = _context.Students.Include(s => s.Classes).ToList();
+             return View(students);
         }
 
         public IActionResult Create()
@@ -34,29 +31,6 @@ namespace Quad_Theory_Limited.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Student student)
         {
-            /*try { 
-            if (ModelState.IsValid)
-            {
-                // Assign CreatedDate and ModificationDate
-                student.CreatedDate = DateTime.Now;
-                student.ModificationDate = DateTime.Now;
-
-                _context.Add(student);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
-
-            // If ModelState is not valid, repopulate Classes for dropdown
-            ViewBag.Classes = _context.Classes.ToList();
-            return View(student);
-
-            }catch (DbUpdateConcurrencyException)
-            {
-                // Handle concurrency exception
-                return StatusCode(500, "An error occurred while saving the changes.");
-            }*/
-
-
             try
             {
                 if (ModelState.IsValid)
