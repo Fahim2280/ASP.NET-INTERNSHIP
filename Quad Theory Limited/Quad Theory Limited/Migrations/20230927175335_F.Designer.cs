@@ -12,8 +12,8 @@ using Quad_Theory_Limited.Models;
 namespace Quad_Theory_Limited.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230913131819_update")]
-    partial class update
+    [Migration("20230927175335_F")]
+    partial class F
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,11 +50,9 @@ namespace Quad_Theory_Limited.Migrations
 
             modelBuilder.Entity("Quad_Theory_Limited.Models.Student", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("ClassId")
                         .HasColumnType("int");

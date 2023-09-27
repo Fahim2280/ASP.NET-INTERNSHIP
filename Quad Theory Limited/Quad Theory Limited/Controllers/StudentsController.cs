@@ -23,7 +23,7 @@ namespace Quad_Theory_Limited.Controllers
         public IActionResult Create()
         {
             ViewBag.Classes = _context.Classes.ToList(); // Populate Classes for dropdown
-            return View();
+            return View();  
         }
 
         //Add Students Information 
@@ -44,9 +44,6 @@ namespace Quad_Theory_Limited.Controllers
                     _context.SaveChanges();
                     return RedirectToAction(nameof(Index));
                 }
-
-                // If ModelState is not valid, repopulate Classes for dropdown
-                ViewBag.Classes = _context.Classes.ToList();
                 return View(student);
             }
             catch (DbUpdateConcurrencyException)
@@ -77,6 +74,7 @@ namespace Quad_Theory_Limited.Controllers
            
         }
 
+        
         public IActionResult Edit(Guid id)
         {
             try
@@ -114,8 +112,6 @@ namespace Quad_Theory_Limited.Controllers
 
                 return RedirectToAction("Index"); // Redirect to student list page
             }
-
-            ViewBag.Classes = _context.Classes.ToList();
             return View(student);
         }
 
